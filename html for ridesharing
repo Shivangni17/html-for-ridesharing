@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ridesharing.css">
+    <title>Ride Sharing</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img
+                    src="https://i.pinimg.com/736x/64/58/d8/6458d8ca5a855101fe370c646df680bf--taxi-logo-car-logos.jpg"
+                    alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Apply to drive</a></li>
+            <li><a href="#services">Sign in to ride</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Get a ride whenever you need one or choose to drop someone at their destination</p>
+                <p class="text-small">We offer you the best rides near your location and at the best prices.<br>
+                    You can even choose to earn an extra income at your own pace.</p>
+            </div>
+
+            <div class="secondHalf">
+                <img src="https://www.thestatesman.com/wp-content/uploads/2020/01/QT-Kolkata-Yellow-Taxi-Cabs.jpg"
+                    alt="Remote image">
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-left" id="about">
+        <div class="paras">
+            <p class="sectionTag text-big">Earn on your own terms</p>
+            <p class="sectionSubTag text-small">Do you want to earn an extra income or be your own boss
+                our community provides you with an opportunity to do the same.
+                Set your own hours and make reliable earnings.
+            <ul>
+                <li>Be your own boss</li>
+                <li>Make reliable earnings</li>
+                <li>Earn at your own pace</li>
+            </ul>
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://images.news18.com/ibnlive/uploads/2020/09/1601468335_untitled-design-72.jpg?impolicy=website&width=510&height=356"
+                alt="Remote image" class="imgFluid">
+        </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+            <p class="sectionTag text-big">Book a taxi to your destination</p>
+            <p class="sectionSubTag text-small">Whether you want to get through your everyday travel needs or ride out
+                off the town we provide you with the best way to travel to your destination.
+            <ul>
+                <li>Experience the best</li>
+                <li>Safe and secure rides</li>
+                <li>Freedom to choose anytime,anywhere</li>
+            </ul>
+
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img src="https://media.istockphoto.com/photos/young-woman-with-smartphone-on-the-back-seat-of-a-car-picture-id1155965270?k=20&m=1155965270&s=612x612&w=0&h=PfbcIBqm07k4IbWyOAt7-B4JwhWqa9PeUzDVH2BwHxA="
+                alt="Remote image" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="text-center">Apply to drive</h1>
+        <div class="form">
+            <form action="driver.html">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name" required>
+                <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your Phone"required>
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email">
+                <input class="form-input" type="date" name="birth details" id="birth details"required>
+                <input class="form-input" type="text" name="Driving license number" id="license"
+                    placeholder="Enter your driving license number"required>
+                <button class="btn btn-sm btn-dark">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="contact" id="services">
+        <h1 class="text-center">Sign in to ride</h1>
+        <div class="form">
+            <form action="rider.html">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name" required>
+                <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your Phone" required>
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email">
+                <button class="btn btn-sm btn-dark">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
